@@ -1,0 +1,14 @@
+git init - uus repo
+
+opilane  ~\Desktop\phpindex  10:52  git init
+Initialized empty Git repository in C:/Users/opilane/Desktop/phpindex/.git/
+
+opilane  …\phpindex   master ?  10:53  git config --global user.name "Dualifyy"
+
+opilane  …\phpindex   master ?  10:55  git config --global user.email "niitenriquefederico@gmail.com"
+
+opilane  …\phpindex   master ?  10:56  git config --global --list
+
+//ssh võti loomine ssh-keygen -o -t rsa -C "niitenriquefederico@gmail.com"
+//võti salvestatakse opilane/.ssh kausta
+//id_rsa.pub tuleb kopeerida oma git hub deploy key-sse repos
