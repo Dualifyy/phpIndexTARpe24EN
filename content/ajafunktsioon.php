@@ -20,9 +20,31 @@ G - 24h format
 i - minutid 0...59
 s - sekundid 0...59
 </pre>";
+echo "<h2>Tehted kuupäevadega</h2>";
 echo "+1min= time()+60 = ". date('d.m.Y G:i:s', time()+60);
 echo "<br>";
 echo "+1tund= time()+60*60 = ". date('d.m.Y G:i:s', time()+60*60);
 echo "<br>";
 echo "+1päev= time()+60*60*24 = ". date('d.m.Y G:i:s', time()+60*60*24);
+echo "<br>";
+echo "<h2>Kuupäeva genereerimine</h2>";
+echo "mktime(tunnid, minutid, sekundid, kuu, päev, aasta)";
+$synnipaev=mktime(23,53,48,4,9,2008);
+
+echo "<br>";
+echo "Minu sünnipäev ".date("d.m.Y G:i:s", $synnipaev);
+echo "<br>";
+ECHO "Massiivi abil näidata tänane kuu nimi";
+echo "<br>";
+$kuud=array(1=>'jaanuar','veebruar','märts','aprill','mai','juuni','juuli','august','september','oktoober','november','detsember');
+$paev=date('d');
+$aasta=date('Y');
+$kuu=$kuud[date('m')];
+$mpaev=date('d', $synnipaev);
+$maasta=date('Y', $synnipaev);
+$mkuu=$kuud[(int)date('m', $synnipaev)];
+echo "Tänane kuupäev kuu nimega ".$paev.".".$kuu." ".$aasta."a";
+echo "<br>";
+echo "Minu sünnipäev:  $mpaev. $mkuu $maasta a.";
+echo "<br>";
 

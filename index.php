@@ -42,6 +42,9 @@ include("nav.php");
       <div>
         <img src="phpPilt.png" alt="PHP Pilt">
     </div>
+    <div>
+        test
+    </div>
 </div>
 
 
