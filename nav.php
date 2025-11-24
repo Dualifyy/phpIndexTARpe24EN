@@ -13,6 +13,12 @@
             <a href="?leht=jsvorm.php">JS Vorm</a>
         </li>
         <li>
+            <a href="?leht=tekstfunktsioonid.php">Tekstfunktsioonid</a>
+        </li>
+        <li>
+            <a href="?leht=matemaatilised.php">Matemaatilised Funktsioonid</a>
+        </li>
+        <li>
             <a href="https://enriquefedericoniit24.thkit.ee/Kodu/" target="_blank">Vana index HTML</a>
         </li>
     </ul>
