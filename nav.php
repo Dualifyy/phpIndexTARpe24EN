@@ -19,6 +19,10 @@
             <a href="?leht=jsvorm.php">JS Vorm</a>
         </li>
 
+        <li>
+            <a href="/content/mobiilimall/esmaspaev.php" target="_blank">Mobiil</a>
+        </li>
+
 
         <li>
             <a href="https://enriquefedericoniit24.thkit.ee/Kodu/" target="_blank">Vana index HTML</a>

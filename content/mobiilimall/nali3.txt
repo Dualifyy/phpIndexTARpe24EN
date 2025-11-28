@@ -1,0 +1,4 @@
+"Juku, kust tuleb elekter?"
+            "Loomaaiast"
+            "Kust sa seda võtad?"
+            "Isa alati ütleb, kui elekter ära läheb, et pagana ahvid, võtsid jälle elektri ära!"
