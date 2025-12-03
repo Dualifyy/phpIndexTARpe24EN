@@ -8,17 +8,25 @@ h2, p {
     margin: 10px;
 }
 
-ul {
-    list-style-type: none;
+.menu, .menu ul{
+    line-height: 1;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #333333;
+    list-style-type: none;
+}
+.menu{
+    display: block;
+    position: relative;
+    height: 47px;
+    width: 100%;
+    background: #333333;
+
 }
 
 ul li {
     float: left;
-    border-right:1px solid #bbbbbb;
+    display: block;
+    position: relative;
 }
 
 ul li:last-child {
@@ -36,10 +44,22 @@ ul li a {
 ul li a:hover:not(.active) {
     background-color: #111111;
 }
+.dropdown{
+    /*  display: none;*/
+    display: block;
+    position: absolute;
+    opacity: 0;
+    background: #333333;
 
-ul li a.active {
-    background-color: #04AA6D;
+    transition: all 0.3s ease;
 }
+.menu li:hover>ul{
+    left: 0;
+    opacity: 1;
+}
+
+
+
 header {
     background-color: #f1f1f1;
     text-align: center;
