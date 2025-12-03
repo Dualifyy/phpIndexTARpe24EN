@@ -9,7 +9,7 @@ body{
 #header{
     margin:0 auto;
 }
-.nav{
+.nav3{
     font-size:14px;
     background:#2d2d2d;
     -moz-border-bottom-left-radius:6px;
@@ -20,29 +20,29 @@ body{
     border-bottom-right-radius:6px;
     margin:0 5px;
 }
-.nav ul{
+.nav3 ul{
     list-style-type:none;
     margin:0;
     padding:0;
 }
-.nav ul li{
+.nav3 ul li{
     display:inline;
     margin:0;
     padding:0;
 }
-.nav ul li:first-child{
+.nav3 ul li:first-child{
     margin:0 0 0 5px;
 }
-.nav ul li:last-child{
+.nav3 ul li:last-child{
     margin:0 5px 0 0;
 }
-.nav ul li a{
+.nav3 ul li a{
     display:inline-block;
     color:#f2f2f2;
     padding:10px;
     text-decoration:none;
 }
-.nav ul li a:hover{
+.nav3 ul li a:hover{
     color:#565656;
 }
 h2{

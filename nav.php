@@ -20,7 +20,7 @@
         </li>
 
         <li>
-            <a href="/content/mobiilimall/esmaspaev.php" target="_blank">Mobiil</a>
+            <a href="content/mobiilimall/blankett.php">Mobiil</a>
         </li>
 
 

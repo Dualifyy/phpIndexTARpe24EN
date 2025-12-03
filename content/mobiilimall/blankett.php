@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta name="viewport" content="width=device-width; initial-scale=1.0;
 maximum-scale=1.0;">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Tunniplaan</title>
-    <link href="/kujundus.css" rel="stylesheet" type="text/css" />
+    <link href="kujundus.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div id="header">
@@ -21,7 +20,17 @@ maximum-scale=1.0;">
     </div>
 </div>
 <div class="clear"></div>
-Päeva teade:
-<?php
-require("teade.txt");
-?>
+<h2>Esmaspäev</h2>
+<p>
+<ol>
+    <li>Matemaatika</li>
+    <li>Ajalugu</li>
+    <li>Laulmine</li>
+</ol>
+</p>
+<div class="nav2">
+    <p>Design by <a
+            href="http://www.mobifreaks.com">Mobifreaks.com</a></p>
+</div>
+</body>
+</html>
